@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "eyelevel-rag": {
+      "url": "http://localhost:8000/sse",
+      "tools": [
+        {
+          "name": "search_doc_for_rag_context",
+          "description": "Searches and retrieves relevant context from a knowledge base, based on the user's query."
+        },
+        {
+          "name": "ingest_documents",
+          "description": "Ingest documents from a local file into the knowledge base."
+        }
+      ]
+    }
+  }
+}
